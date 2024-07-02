@@ -1,0 +1,2294 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url("img/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.scooter {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 16px;
+  width: 396px;
+  margin-top: 48px;
+  gap: 32px;
+}
+.dash-scooter {
+  width: 88px;
+  height: 88px;
+  padding-left: 16px;
+  position: relative;
+  top: -11.5px;
+}
+.scooter-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: nowrap;
+}
+.scooter-contents p {
+  font-family: "Norms med";
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 40px;
+}
+
+.scooter-contents h2 {
+  font-family: "Norms bold";
+  font-size: 18px;
+}
+
+.get-the-app {
+  background-color: white;
+  color: #eb1700;
+  border: none;
+  font-family: "Norms bold";
+  margin-top: 10px;
+  font-size: 14px;
+  align-self: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 3px;
+  left: -6px;
+  gap: 4px;
+}
+
+.partner {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 16px;
+  width: 396px;
+  margin-top: -2.5px;
+  gap: 32px;
+}
+.store-front {
+  width: 88px;
+  height: 88px;
+  padding-left: 16px;
+  padding-top: 5.5px;
+}
+.store-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+}
+.store-contents p {
+  font-family: "Norms med";
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 40px;
+}
+
+.store-contents h2 {
+  font-family: "Norms bold";
+  font-size: 18px;
+}
+
+.store-sign {
+  background-color: white;
+  color: #eb1700;
+  border: none;
+  font-family: "Norms bold";
+  font-size: 14px;
+  align-self: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  left: -6px;
+  top: 12.5px;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 25px 16px;
+  width: 396px;
+
+  gap: 32px;
+}
+.i-phone {
+  width: 88px;
+  height: 88px;
+  padding-left: 16px;
+}
+.experience-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+}
+.experience-contents p {
+  font-family: "Norms med";
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 40px;
+}
+
+.experience-contents h2 {
+  font-family: "Norms bold";
+  font-size: 18px;
+}
+
+.experience-sign {
+  background-color: white;
+  color: #eb1700;
+  border: none;
+  font-family: "Norms bold";
+  font-size: 14px;
+  align-self: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  left: -6px;
+  top: 12.5px;
+}
+
+.gifting {
+  padding: 40px 20px 20px;
+}
+.gifting h2 {
+  font-family: "Norms bold";
+  text-align: center;
+}
+
+.return-packages-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.return-package-sub {
+  padding: 20px;
+}
+
+.package-cover {
+  height: 552px;
+  width: 552px;
+}
+
+@media only screen and (max-width: 767px) {
+  .signin {
+    display: none;
+  }
+  .signup {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    position: absolute;
+    right: 25.5px;
+    column-gap: 7.5px;
+    top: 16px;
+  }
+  .pin {
+    display: none;
+  }
+
+  .login {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-family: "Norms bold";
+    height: 32px;
+    width: 64px;
+    font-size: 16px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    letter-spacing: -0.5px;
+  }
+
+  .app {
+    background-color: #eb1700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: "Norms bold";
+    height: 32px;
+    width: 97px;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    letter-spacing: -0.5px;
+  }
+
+  .doordash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .door {
+    width: 112px;
+    height: 98px;
+    position: absolute;
+    bottom: 39px;
+    left: -36px;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 79px;
+    right: 44px;
+  }
+
+  .main h2 {
+    position: absolute;
+    font-family: "Norms bold";
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 29px;
+    white-space: nowrap;
+    text-align: center;
+    top: -60px;
+  }
+  .search {
+    position: absolute;
+    top: 1px;
+  }
+
+  .address {
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    height: 46px;
+    width: 281px;
+    top: 20px;
+    left: -143px;
+  }
+
+  .address::placeholder {
+    font-family: "Norms med";
+    padding-left: 47px;
+    font-size: 16px;
+    color: rgb(56, 54, 54);
+    position: absolute;
+    top: 15px;
+    text-indent: 3px;
+  }
+
+  .magnifier {
+    z-index: 1;
+    position: absolute;
+    left: -127px;
+    top: 32px;
+  }
+  .right-arrow {
+    z-index: 1;
+    position: absolute;
+    left: 107px;
+    top: 32px;
+  }
+  .logbutton {
+    position: relative;
+  }
+  .log {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 32px;
+    width: 80.5px;
+    font-family: "Norms bold";
+    font-size: 14px;
+    top: 85px;
+    left: -40.5px;
+    text-indent: 20px;
+    box-shadow: rgba(25, 25, 25, 0) 0px 0px 0px 1px inset,
+      rgba(25, 25, 25, 0.2) 0px 2px 8px 0px;
+  }
+
+  .user {
+    position: absolute;
+    z-index: 1;
+    top: 93px;
+    left: -28.5px;
+  }
+  .sign2 {
+    display: none;
+  }
+  .biggo {
+    display: none;
+  }
+  .sign3 {
+    display: none;
+  }
+  .arow {
+    display: none;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0;
+  }
+
+  .playstore {
+    padding: 20px;
+    height: 107px;
+    width: 318px;
+    border-radius: 18px;
+    background-color: rgb(247 247 247);
+    border: 1px solid rgba(211, 211, 211, 0.548);
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 9px;
+  }
+  .image-container {
+    height: 59.5px;
+    width: 57.5px;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.548);
+    border-radius: 16px;
+  }
+
+  .red-logo {
+    padding: 8px;
+  }
+
+  .play-contents h2 {
+    font-family: "Norms bold";
+    font-size: 17.1px;
+    font-weight: lighter;
+    word-spacing: -1px;
+    letter-spacing: 0.01ch;
+    margin-top: 1px;
+  }
+
+  .play-contents p {
+    margin-top: 7px;
+    font-family: "Norms med";
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+  }
+  .get-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb1700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: "Norms bold";
+    font-weight: 500;
+    height: 31.5px;
+    width: 124px;
+    font-size: 14px;
+    margin-top: 11px;
+    gap: 4px;
+  }
+
+  .big-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fef1ee;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .cravings {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    margin-top: -155px;
+  }
+
+  .cravings img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  .image-container--1 {
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .cravings h2 {
+    font-family: "Norms bold";
+    margin: 20px;
+    margin-left: -0px;
+  }
+
+  .cravings h4 {
+    font-family: "Norms bold";
+    margin-bottom: 20px;
+  }
+
+  .cravings p {
+    font-family: "Norms reg";
+    font-size: 14px;
+    font-weight: bold;
+    color: #76706f;
+    line-height: 2ch;
+  }
+
+  .find-resto {
+    font-family: "Norms bold";
+    color: white;
+    background-color: #eb1700;
+    width: 130px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .dash-passed {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .dash-passed img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-container--2 {
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .dash-passed h2 {
+    font-family: "Norms bold";
+    margin: 20px;
+    margin-left: -0px;
+  }
+
+  .dash-passed p {
+    font-family: "Norms reg";
+    font-size: 14px;
+    font-weight: bold;
+    color: #76706f;
+    line-height: 2ch;
+  }
+
+  .get-dashpass {
+    font-family: "Norms bold";
+    color: white;
+    background-color: #eb1700;
+    width: 130px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .section-3 {
+    background-image: url("img/grocery_desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .grocerylayer {
+    background-color: #1e1e1e99;
+  }
+
+  .grocerylayer {
+    padding: 70px 0;
+  }
+
+  .grocery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+
+  .grocery h2,
+  h3 {
+    font-family: "Norms bold";
+    color: white;
+  }
+
+  .grocery p {
+    font-family: "Norms med";
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: max-content;
+  }
+
+  .grocery-button {
+    font-family: "Norms bold";
+    font-size: 14px;
+    height: 30px;
+    width: 130px;
+    display: inline;
+    color: white;
+    background-color: #eb1700;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .door-step {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .door-step img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-container--3 {
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .door-step h2 {
+    font-family: "Norms bold";
+    margin: 20px;
+    margin-left: -0px;
+  }
+
+  .door-step p {
+    font-family: "Norms reg";
+    font-size: 14px;
+    font-weight: bold;
+    color: #76706f;
+    line-height: 2ch;
+    width: 300px;
+  }
+
+  .shop-now {
+    font-family: "Norms bold";
+    color: white;
+    background-color: #eb1700;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .container-package {
+    background-color: #fef1ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .burger-tablet {
+    display: none;
+  }
+
+  .guy-tablet {
+    display: none;
+  }
+
+  .plastic-cover-tablet {
+    display: none;
+  }
+
+  .gifting-palette--2 {
+    display: none;
+  }
+
+  .flowers-for-occassion {
+    display: none;
+  }
+
+  .card-board {
+    height: 180px;
+    width: 330px;
+  }
+  .section-5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    background-color: #fef1ee;
+    padding: 40px 20px 20px;
+  }
+
+  .gifting-head h2 {
+    font-family: "Norms bold";
+    text-align: center;
+    width: 300px;
+    padding-bottom: 20px;
+  }
+
+  .return-gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .return-gift-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .return-gift-contents h2 {
+    font-family: "Norms bold";
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+  }
+
+  .return-gift-contents p {
+    font-family: "Norms med";
+    text-align: center;
+    font-size: 14px;
+    width: 320px;
+    padding-bottom: 20px;
+  }
+
+  .package-pickup-btn {
+    font-family: "Norms bold";
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+  }
+
+  .card-board {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-container-cardboard {
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .unlock-oppurtunity {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .unlock-oppurtunity h2 {
+    font-family: "Norms bold";
+    text-align: center;
+  }
+
+  .pinklayer {
+    background-color: #fef1ee;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .guy-holding-bag {
+    width: 370px;
+    height: 172px;
+    object-fit: cover;
+    margin-top: -70px;
+  }
+
+  .image-container-guy-holding-a-bag {
+    height: 182px;
+    width: 372px;
+    overflow: hidden;
+  }
+
+  .become-a-dasher {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .become-a-dasher-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .become-a-dasher-content h2 {
+    font-family: "Norms bold";
+  }
+
+  .become-a-dasher-content p {
+    font-family: "Norms med";
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .become-a-dasher-btn {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    font-size: 14px;
+    height: 30px;
+    width: 135px;
+    border-radius: 20px;
+  }
+
+  .business-dash {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  .lady {
+    width: 370px;
+    height: 178px;
+    object-fit: cover;
+    margin-top: -6px;
+  }
+
+  .image-container-lady {
+    height: 182px;
+    width: 372px;
+    overflow: hidden;
+  }
+
+  .business-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .business-contents h2 {
+    font-family: "Norms bold";
+  }
+
+  .business-contents p {
+    font-family: "Norms med";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .become-a-partner {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    width: 140px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .end-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0px;
+    gap: 10px;
+  }
+  .heading h2 {
+    font-family: "Norms bold";
+    font-size: 18px;
+  }
+  .heading {
+    margin-bottom: 20px;
+  }
+
+  .top-thing {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cuisines,
+  .chains {
+    font-family: "Norms med";
+
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: grey;
+  }
+
+  .cities {
+    color: black;
+    font-family: "Norms med";
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+  }
+
+  .cities1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 12px;
+  }
+
+  .city-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-family: "Norms med";
+    text-align: center;
+    color: rgb(83, 79, 79);
+  }
+
+  .city-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -55px;
+    font-family: "Norms med";
+    align-items: center;
+    text-align: center;
+    color: rgb(83, 79, 79);
+  }
+  footer {
+    background-color: #191919;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popular-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 32px 0;
+  }
+
+  .popular-categories h2,
+  .know-us h2,
+  .help h2,
+  .doing-business h2 {
+    font-family: "Norms bold";
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .contents,
+  .contents-2,
+  .contents-3,
+  .contents-4,
+  .contents-5,
+  .contents-6,
+  .contents-7 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    font-family: "Norms med";
+    font-size: 14px;
+    padding: 15px;
+    color: #c4c4c4;
+  }
+
+  .downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .container-apple {
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #494949;
+  }
+
+  .container-android {
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #494949;
+    width: auto;
+  }
+
+  .know-us,
+  .help,
+  .doing-business {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .language {
+    padding: 20px;
+  }
+
+  .lang {
+    border: none;
+    border-radius: 20px;
+    font-family: "Norms med";
+    color: #494949;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    padding: 0px 10px;
+  }
+
+  .lang span {
+    position: relative;
+    top: -7px;
+  }
+
+  .end-credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #c4c4c4;
+    font-family: "Norms med";
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .upper-credits {
+    display: flex;
+    gap: 10px;
+  }
+
+  .lower-credits {
+    display: flex;
+    gap: 10px;
+  }
+
+  .gy-tablet {
+    display: none;
+  }
+
+  .lady-tablet {
+    display: none;
+  }
+
+  .wrapper2 {
+    display: none;
+  }
+
+  .cities2 {
+    display: none;
+  }
+  .cities3 {
+    display: none;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+  header {
+    background-image: url("img/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .login {
+    display: none;
+  }
+  .app {
+    display: none;
+  }
+  .buttons {
+    display: flex;
+    position: absolute;
+    right: 24px;
+    column-gap: 8px;
+    top: 16px;
+  }
+  .signin {
+    background-color: #eb1700;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: "Norms bold";
+    height: 40px;
+    width: 78px;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    letter-spacing: -0.5px;
+  }
+  .signup {
+    background-color: white;
+    color: rgb(83, 83, 83);
+    border-radius: 25px;
+    border: none;
+    font-family: "Norms bold";
+    height: 40px;
+    width: 86.5px;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    letter-spacing: -0.5px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  .doordash {
+    position: relative;
+    top: -291px;
+    left: 20px;
+  }
+  .logo {
+    position: absolute;
+    left: -40px;
+    top: -1px;
+  }
+  .main h2 {
+    position: absolute;
+    font-family: "Norms bold";
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-align: center;
+    top: -49.5px;
+  }
+  .magnifier {
+    display: none;
+  }
+  .search {
+    position: absolute;
+    top: 1px;
+  }
+
+  .address {
+    position: absolute;
+    border: none;
+    border-radius: 29px;
+    height: 53.3px;
+    width: 403.5px;
+    top: 29.8px;
+    left: -203.8px;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
+  }
+
+  .address::placeholder {
+    font-family: "Norms med";
+    padding-left: 47px;
+    font-size: 16px;
+    color: rgb(84, 82, 82);
+    position: absolute;
+    top: 18px;
+    text-indent: 7px;
+  }
+  .log {
+    display: none;
+  }
+  .logbutton {
+    position: relative;
+  }
+  .sign2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 32px;
+    width: 87.6px;
+    font-family: "Norms bold";
+    font-size: 14px;
+    top: 84px;
+    text-indent: 20px;
+    left: -44px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .logbutton span {
+    position: absolute;
+    top: 7px;
+    left: 11.5px;
+  }
+
+  .pin {
+    position: absolute;
+    z-index: 1;
+    left: -184px;
+    top: 45.5px;
+  }
+  .user {
+    position: absolute;
+    z-index: 1;
+    top: 92px;
+    left: -32px;
+  }
+  .right-arrow {
+    z-index: 1;
+    position: absolute;
+    left: 164px;
+    top: 45.8px;
+  }
+  .biggo {
+    display: none;
+  }
+  .sign3 {
+    display: none;
+  }
+  .arow {
+    display: none;
+  }
+  .playstore {
+    display: none;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+
+  .scooter-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .scooter,
+  .partner,
+  .experience {
+    display: flex;
+    width: 470px;
+    gap: 60px;
+  }
+
+  .scooter-contents p {
+    padding: 0;
+  }
+
+  .dash-scooter,
+  .store-front,
+  .i-phone {
+    height: 124px;
+    width: 124px;
+  }
+
+  .cravings {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .craving-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -7px;
+  }
+
+  .cravings img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .image-container--12 {
+    width: 100%;
+    max-width: 100%;
+    height: 520px;
+    margin-right: -10px;
+  }
+
+  .craving-contents h2 {
+    font-family: "Norms bold";
+    margin: 20px 0px 0px;
+    width: 350px;
+    line-height: 40px;
+    font-size: 39.8px;
+    letter-spacing: 0.1px;
+  }
+
+  .craving-contents h4 {
+    font-family: "Norms bold";
+    margin: 20px 0px 0px;
+    font-size: 20px;
+    letter-spacing: -0.01px;
+  }
+
+  .craving-contents p {
+    font-family: "Norms med";
+    margin: 9px 0px 0px;
+    padding-right: 7px;
+    line-height: 1ch;
+    font-size: 16px;
+    width: 360px;
+    line-height: 22px;
+    padding-top: 1px;
+  }
+
+  .find-resto {
+    margin: 30.5px 0 0;
+    padding-bottom: 2px;
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    border-radius: 40px;
+    height: 40px;
+    width: 146px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dash-passed {
+    background-color: #fef1ee;
+    padding: 80px 25px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -70px;
+    gap: 37px;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    padding-top: 145px;
+    margin-left: -20px;
+  }
+
+  .image-container--21 {
+    width: 100%;
+    max-width: 100%;
+    height: 515px;
+    margin-right: -10px;
+  }
+  .burger-tablet {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .burger h2 {
+    font-family: "Norms bold";
+    font-size: 40px;
+    width: 350px;
+  }
+
+  .burger p {
+    font-family: "Norms med";
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0;
+    width: 350px;
+  }
+
+  .get-dashpass {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 125px;
+    font-family: "Norms bold";
+    font-size: 16px;
+  }
+
+  .section-3 {
+    background-image: url("img/grocery_desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+  }
+
+  .grocerylayer {
+    background-color: #1e1e1e99;
+    height: 100%;
+  }
+  .grocery {
+    padding: 146px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .grocery h2 {
+    font-family: "Norms bold";
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+
+  .grocery h3 {
+    font-family: "Norms bold";
+    color: white;
+    font-size: 20px;
+  }
+
+  .grocery p {
+    font-family: "Norms med";
+    color: white;
+    width: 600px;
+  }
+
+  .grocery-button {
+    font-size: 16px;
+    font-family: "Norms bold";
+    background-color: #eb1700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 135px;
+  }
+
+  .section-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 60px 20px 20px;
+    gap: 75px;
+  }
+
+  .door-step {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-left: 10px;
+  }
+
+  .image-container--31 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .plastic-cover-tablet {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .door-step h2 {
+    font-family: "Norms bold";
+    font-size: 40px;
+    width: 300px;
+  }
+
+  .door-step p {
+    font-family: "Norms med";
+    line-height: 22px;
+    width: 340px;
+    margin: 20px 0px;
+  }
+
+  .shop-now {
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    width: 95px;
+    height: 45px;
+  }
+
+  .section-5 {
+    background-color: #fef1ee;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding-top: 60px;
+    box-sizing: border-box;
+  }
+
+  .gifting-head h2 {
+    font-family: "Norms bold";
+    font-size: 32px;
+    padding: 0px 160px 30px;
+    text-align: center;
+  }
+
+  .gifting-palette {
+    display: none;
+  }
+
+  .gifting-palette--2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 60px;
+    padding: 20px 20px;
+    height: 1240px;
+  }
+
+  .bartender,
+  .feeding-dog {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .image-container-baretender {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  .returning-packages-contents,
+  .flower-contents,
+  .alcohol-contents,
+  .pet-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .returning-packages-contents h2,
+  .flower-contents h2,
+  .alcohol-contents h2,
+  .pet-contents h2 {
+    font-family: "Norms bold";
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .returning-packages-contents h2 {
+    padding: 0 50px;
+  }
+
+  .returning-packages-contents p,
+  .flower-contents p,
+  .alcohol-contents p,
+  .pet-contents p {
+    font-family: "Norms med";
+    line-height: 20px;
+  }
+
+  .try-package-pickup,
+  .send-flowers,
+  .shop-alcohol,
+  .get-supplies {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    border-radius: 25px;
+    height: 42px;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .unlock-oppurtunity h2 {
+    font-family: "Norms bold";
+    font-size: 32px;
+    text-align: center;
+    padding: 40px 120px;
+  }
+
+  .pinklayer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .becomeing-a-dasher {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+  }
+
+  .gy-tablet {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .container-guy-holding-bag {
+    width: 100%;
+    max-width: 100%;
+    height: 515px;
+  }
+
+  .become-a-dasher-content {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0 0;
+    gap: 20px;
+  }
+
+  .become-a-dasher-content h2 {
+    font-family: "Norms bold";
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .become-a-dasher-content p {
+    font-family: "Norms med";
+    line-height: 24px;
+    padding: 0px 20px 0 0;
+  }
+
+  .become-a-dasher-btn {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    border-radius: 20px;
+    width: 155px;
+    font-family: "Norms bold";
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .wrapper2 {
+    background-color: #fef1ee;
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .wrapper2 .business-dash {
+    margin-top: 60px;
+    padding: 20px 20px 0;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .wrapper2 .lady-tablet {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+
+  .wrapper2 .image-container-lady {
+    width: 30%;
+    max-width: 100%;
+    height: 545px;
+  }
+
+  .wrapper2 .business-contents {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0 0;
+    margin-left: -30px;
+    gap: 20px;
+  }
+
+  .wrapper2 .business-contents h2 {
+    font-family: "Norms bold";
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .wrapper2 .business-contents p {
+    font-family: "Norms med";
+    line-height: 20px;
+    white-space: wrap;
+  }
+
+  .wrapper2 .become-a-partner {
+    border: none;
+    background-color: #eb1700;
+    color: white;
+    font-family: "Norms bold";
+    border-radius: 25px;
+    width: 156px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .end-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 48px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    font-family: "Norms bold";
+    font-size: 22px;
+    padding: 0 40px;
+  }
+
+  .top-thing {
+    display: flex;
+    gap: 120px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding: 20px 0 10px;
+  }
+
+  .top-thing .cities {
+    border: none;
+    background-color: white;
+    font-family: "Norms bold";
+    font-size: 16px;
+  }
+
+  .top-thing button {
+    border: none;
+    background-color: white;
+    font-family: "Norms med";
+    color: #494949;
+    font-size: 16px;
+  }
+
+  .cities2 {
+    display: flex;
+    gap: 180px;
+  }
+
+  .city-1,
+  .city-2,
+  .city-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Norms med";
+    text-align: center;
+  }
+
+  footer {
+    background-color: #191919;
+    color: white;
+  }
+
+  .popular-categories {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 20px;
+    gap: 20px;
+  }
+
+  .popular-categories h2 {
+    font-family: "Norms reg";
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .content-main {
+    display: flex;
+    gap: 35px;
+  }
+
+  .contents,
+  .contents-2,
+  .contents-3,
+  .contents-4 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Norms med";
+    font-size: 14px;
+    color: #c4c4c4;
+    gap: 10px;
+  }
+
+  .downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .container-apple {
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #494949;
+  }
+
+  .container-android {
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #494949;
+    width: auto;
+  }
+
+  .know-us-container {
+    display: flex;
+    padding: 30px 20px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .know-us,
+  .help,
+  .doing-business {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Norms bold";
+  }
+
+  .know-us h2,
+  .help h2,
+  .doing-business h2 {
+    font-size: 16px;
+  }
+
+  .contents-5,
+  .contents-6,
+  .contents-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Norms reg";
+    font-size: 14px;
+    color: #c4c4c4;
+  }
+
+  .near-pavement {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .end-credits {
+    display: flex;
+    flex-direction: column;
+    font-family: "Norms reg";
+    font-size: 12px;
+    padding-left: 20px;
+    color: #c4c4c4;
+  }
+
+  .upper-credits {
+    display: flex;
+    gap: 15px;
+  }
+
+  .lower-credits {
+    display: flex;
+    gap: 15px;
+    padding-right: 30px;
+    position: relative;
+    left: -15px;
+  }
+
+  .lang {
+    border: none;
+    border-radius: 20px;
+    font-family: "Norms med";
+    color: #494949;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    padding-right: 50px;
+    padding: 0px 10px;
+  }
+
+  .lang span {
+    position: relative;
+    top: -5px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 15px;
+  }
+
+  .guy-holding-bag {
+    display: none;
+  }
+
+  .guy-mobile {
+    display: none;
+  }
+  .burger-mob {
+    display: none;
+  }
+  .plastic-cover-mobile {
+    display: none;
+  }
+  .lady {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+  }
+
+  .cities1 {
+    display: none;
+  }
+  .cities3 {
+    display: none;
+  }
+}
+
+/* Laptop */
+@media only screen and (min-width: 1185px) {
+  header {
+    background-image: url("img/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  .doordash {
+    position: relative;
+    top: -287px;
+    left: 27px;
+  }
+  .logo {
+    position: absolute;
+    top: 54px;
+    height: 42px;
+    width: 41px;
+    left: -54px;
+  }
+  .door {
+    height: 150px;
+    width: 155px;
+  }
+  .smallo {
+    display: none;
+  }
+  .sign2 {
+    display: none;
+  }
+  .biggo {
+    display: block;
+    position: absolute;
+    font-family: "Norms bold";
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 29px;
+    white-space: nowrap;
+    text-align: center;
+    top: 34px;
+  }
+  .sign3 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 32px;
+    width: 203px;
+    font-family: "Norms bold";
+    font-size: 14px;
+    text-indent: 20px;
+    left: -101.5px;
+    top: 11px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .search {
+    position: absolute;
+    top: 63px;
+  }
+  .address::placeholder {
+    position: absolute;
+    top: 19px;
+  }
+  .right-arrow {
+    display: none;
+  }
+  .arow {
+    position: absolute;
+    left: 156px;
+    top: 38px;
+    display: block;
+    background-color: #eb1700;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 99999px;
+    color: white;
+  }
+  .right-arrow1 {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .user {
+    position: absolute;
+    top: 19px;
+    left: -90px;
+  }
+
+  .scooter-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 96px 0;
+    padding: 12px;
+  }
+
+  .scooter {
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: column;
+  }
+
+  .scooter-contents {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dash-scooter {
+    height: 154px;
+    width: 154px;
+  }
+
+  .scooter-contents h2 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .scooter-contents p {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    width: 235px;
+    line-height: 2ch;
+  }
+
+  .partner {
+    margin-left: -100px;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: column;
+  }
+
+  .store-contents {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .store-front {
+    height: 154px;
+    width: 154px;
+  }
+
+  .store-contents h2 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .store-contents p {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    width: 235px;
+    line-height: 2ch;
+  }
+
+  .experience {
+    margin-left: -170px;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    gap: 1px;
+    flex-direction: column;
+  }
+
+  .experience-contents {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .i-phone {
+    height: 154px;
+    width: 154px;
+  }
+
+  .experience-contents h2 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .experience-contents p {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    width: 235px;
+    line-height: 2ch;
+  }
+
+  .store-sign,
+  .experience-sign,
+  .get-the-app {
+    font-size: 18px;
+  }
+
+  .section-5 {
+    background-color: #fef1ee;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding-top: 60px;
+    box-sizing: border-box;
+    height: 1800px;
+  }
+
+  .cities3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    font-family: "Norms med";
+  }
+
+  .city-1,
+  .city-2,
+  .city-3,
+  .city-4,
+  .city-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: #191919;
+  }
+
+  .popular-categories {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: left;
+    padding: 32px 20px 0 70px;
+    gap: 20px;
+  }
+
+  .contents,
+  .contents-2,
+  .contents-3,
+  .contents-4,
+  .contents-5,
+  .contents-6,
+  .contents-7 {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: "Norms med";
+    font-size: 14px;
+    color: #c4c4c4;
+  }
+
+  .content-main {
+    justify-content: space-between;
+
+    gap: 10px;
+  }
+
+  .contents-4 {
+    padding-right: 180px;
+  }
+
+  .guy-holding-bag {
+    display: none;
+  }
+
+  .guy-mobile {
+    display: none;
+  }
+  .burger-mob {
+    display: none;
+  }
+  .plastic-cover-mobile {
+    display: none;
+  }
+  .lady {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+  }
+
+  .cities1 {
+    display: none;
+  }
+
+  .cities2 {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "Norms reg";
+  src: url("fonts/Norms-Regular.unknown") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Norms bold";
+  src: url("fonts/Norms-Bold.unknown");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Norms med";
+  src: url("fonts/Norms-Medium.unknown");
+  font-weight: normal;
+  font-style: normal;
+}
