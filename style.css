@@ -1,5 +1,13 @@
 * {
   margin: 0;
+  /* box-sizing: border-box; */
+  padding: 0;
+}
+
+
+html{
+  overflow-x: hidden !important;
+
 }
 
 header {
@@ -151,6 +159,10 @@ header {
   font-size: 18px;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .experience-sign {
   background-color: white;
   color: #eb1700;
@@ -196,6 +208,10 @@ header {
   }
   .signup {
     display: none;
+  }
+
+  body{
+    overflow-x: hidden;
   }
 
   .main {
