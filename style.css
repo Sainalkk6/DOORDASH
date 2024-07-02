@@ -5,10 +5,7 @@
 }
 
 
-html{
-  overflow-x: hidden !important;
 
-}
 
 header {
   background-image: url("img/background.webp");
@@ -159,9 +156,7 @@ header {
   font-size: 18px;
 }
 
-body{
-  overflow-x: hidden;
-}
+
 
 .experience-sign {
   background-color: white;
@@ -210,8 +205,10 @@ body{
     display: none;
   }
 
-  body{
-    overflow-x: hidden;
+
+  .wrapper-container{
+    width: 100%;
+    height: 100%;
   }
 
   .main {
@@ -237,13 +234,20 @@ body{
     color: black;
     border-radius: 20px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+  }
+
+  .login span{
     font-family: "Norms bold";
-    height: 32px;
-    width: 64px;
     font-size: 16px;
-    padding-left: 7px;
-    padding-bottom: 2px;
-    letter-spacing: -0.5px;
+    padding: 0 12px;
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    text-align: center;
+
   }
 
   .app {
@@ -251,13 +255,19 @@ body{
     color: white;
     border: none;
     border-radius: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app span{
     font-family: "Norms bold";
-    height: 32px;
-    width: 97px;
     font-size: 16px;
-    padding-left: 8px;
-    padding-bottom: 2px;
-    letter-spacing: -0.5px;
+    padding:0 12px;
+    letter-spacing: -0.01px;
+    line-height: 22px;
+    text-align: center;
   }
 
   .doordash {
@@ -268,7 +278,7 @@ body{
   }
 
   .door {
-    width: 112px;
+    max-width: 112px;
     height: 98px;
     position: absolute;
     bottom: 39px;
@@ -288,7 +298,7 @@ body{
     text-align: center;
     font-size: 22px;
     line-height: 29px;
-    white-space: nowrap;
+    width: 90%;
     text-align: center;
     top: -60px;
   }
@@ -553,10 +563,12 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
   }
 
   .grocerylayer {
     background-color: #1e1e1e99;
+    width: 100%;
   }
 
   .grocerylayer {
@@ -571,12 +583,14 @@ body{
     justify-content: center;
     margin: 20px 0;
     gap: 10px;
+    width: 100%;
   }
 
   .grocery h2,
   h3 {
     font-family: "Norms bold";
     color: white;
+    width: 100%;
   }
 
   .grocery p {
@@ -584,7 +598,8 @@ body{
     color: white;
     text-align: center;
     font-size: 14px;
-    width: max-content;
+    width: 100%;
+
   }
 
   .grocery-button {
@@ -1111,6 +1126,11 @@ body{
     justify-content: center;
     position: relative;
   }
+
+  .wrapper-container{
+    width: 100%;
+    height: 100%;
+  }
   .login {
     display: none;
   }
@@ -1442,6 +1462,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 100%;
     text-align: center;
   }
 
@@ -1984,6 +2005,10 @@ body{
     flex-direction: column;
     justify-content: center;
     position: relative;
+  }
+  .wrapper-container{
+    width: 100%;
+    height: 100%;
   }
 
   .main {
